@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.container{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    box-shadow: 8px 8px black;
+    border: 1px solid hsl(0, 0%, 7%);
+    width: 384px;
+    box-sizing: border-box;
+}
+.card_img{
+    height: 200px;
+}
+.card_illustration{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.625rem;
+}
+.card_content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.card_category{
+    padding: 0.25rem 0.75rem;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 0.25rem;
+    width: fit-content;
+    color: hsl(0, 0%, 7%);
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
+.card_date{
+    color: hsl(0, 0%, 7%);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.card_title{
+    color: hsl(0, 0%, 7%);
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
+.card_title:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.card_description{
+    color: hsl(0, 0%, 42%);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.card_author{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0.75rem;
+}
+.card_avatar{
+    width: 32px;
+    height: 32px;
+}
+.card_author_name{
+    color: hsl(0, 0%, 7%);
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
